@@ -5,7 +5,7 @@ import ThirdCard from "./ThirdCard";
 
 const Card = () => {
   return(
-    <div className="flex flex-row mt-[172px] mb-[90px] w-[919px] h-[172] rounded" >
+    <div className="flex flex-col md:flex-row mt-[90px] mb-[64px] md:mt-[172px] md:mb-[90px] w-[327px] h-[1324px] md:w-[919px] md:h-[498px] rounded" >
       <FirstCard />
       <SecondCard />
       <ThirdCard />
