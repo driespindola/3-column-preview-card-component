@@ -1,14 +1,14 @@
 import React from "react";
-import CardContent from "./CardContent";
-import CardImage from "./CardImage";
-import CardMobile from "./CardMobile";
+import FirstCard from "./FirstCard";
+import SecondCard from "./SecondCard";
+import ThirdCard from "./ThirdCard";
 
 const Card = () => {
   return(
-    <div className="flex flex-col md:flex-row my-[79px] mx-[24px] md:my-[178px] md:ml-[150px] md:mr-[179px] bg-[#1C1938] w-[328px] h-[778px] md:w-[1111px] md:h-[445px] rounded">
-      <CardMobile />
-      <CardContent />
-      <CardImage />
+    <div className="flex flex-row mt-[172px] mb-[90px] w-[919px] h-[172] rounded" >
+      <FirstCard />
+      <SecondCard />
+      <ThirdCard />
     </div>
   )
 }

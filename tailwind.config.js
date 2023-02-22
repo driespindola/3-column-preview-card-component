@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'inter': ['Inter'],
+        'shoulders': ['Big Shoulders Display'],
         'lexend': ['Lexend Deca']
       }
     },
